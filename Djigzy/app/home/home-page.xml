@@ -1,0 +1,16 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+    <ActionBar title="Igorov jako originalni projekt" icon="" />
+
+    <GridLayout rows="0, 70, 70, 70, " columns="0,100,250">
+        <Label text="x = " row="1" col="1" ></Label>
+        <Label text="{{ x }}" row="1" col="2"></Label>
+        
+        <Label text="y = " row="2" col="1"></Label>
+        <Label text="{{ y }}" row="2" col="2"></Label>
+
+        <Label text="z = " row="3" col="1"></Label>
+        <Label text="{{ z }}" row="3" col="2"></Label>
+    </GridLayout>
+    
+</Page>
